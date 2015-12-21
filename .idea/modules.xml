@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fristApp.iml" filepath="$PROJECT_DIR$/fristApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/pglogic/pglogic.iml" filepath="$PROJECT_DIR$/pglogic/pglogic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pgui/pgui.iml" filepath="$PROJECT_DIR$/pgui/pgui.iml" />
     </modules>
   </component>
 </project>

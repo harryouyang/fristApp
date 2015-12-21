@@ -1,13 +1,19 @@
 package com.pangu.fristapp;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.pangu.fristapp.activitys.BaseActivty;
+import com.pangu.pglogic.common.util.PGLogUtil;
+import com.pangu.pglogic.common.util.PGNetWorkUtil;
+
+public class MainActivity extends BaseActivty {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        String mac = PGNetWorkUtil.getMacAddress(this);
+        PGLogUtil.d("MAC",mac);
     }
 }

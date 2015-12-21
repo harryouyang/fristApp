@@ -1,1 +1,1 @@
-include ':app', ':pglogic'
+include ':app', ':pglogic', ':pgui'
