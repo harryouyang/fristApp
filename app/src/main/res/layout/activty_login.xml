@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:text="账号"
+        android:textSize="16dip" />
+    <AutoCompleteTextView
+        android:id="@+id/user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:completionThreshold="1"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:text="密码"
+        android:textSize="16dip" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:password="true"
+        android:singleLine="true" />
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="180dip"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorCommit"
+        android:dividerHeight="2.0dip"
+        android:text="登陆" />
+
+</LinearLayout>

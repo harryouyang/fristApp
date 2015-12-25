@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">fristApp</string>
+
+    <string name="leftMenuName1">menu1</string>
+    <string name="leftMenuName2">menu2</string>
+    <string name="leftMenuName3">menu3</string>
+    <string name="leftMenuName4">menu4</string>
+    <string name="leftMenuName5">menu5</string>
+    <string name="leftMenuName6">menu6</string>
 </resources>

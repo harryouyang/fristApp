@@ -1,1 +1,1 @@
-include ':app', ':pglogic', ':pgui'
+include ':app', ':pglogic', ':pgui', ':slidingmenu'
